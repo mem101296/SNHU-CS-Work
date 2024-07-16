@@ -1,2 +1,4 @@
 # SNHU-CS-Work
-A repo for all my SNHU work
+A repo for all my SNHU work.
+
+Now on gitlab
