@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cylinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vboindexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vertexBufferObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="staticMesh3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="staticMeshIndexed3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="linmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vboindexer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\steel2.jpg" />
+    <Image Include="images\woodPan2.jpg" />
+    <Image Include="images\pinkMarble.jpg" />
+    <Image Include="images\blackstainless.jpg" />
+    <Image Include="images\rubber.jpg" />
+    <Image Include="images\rim.jpg" />
+    <Image Include="images\bssteel.jpg" />
+    <Image Include="images\dark-steelBW Copy.jpg" />
+    <Image Include="images\dark-steel.jpg" />
+    <Image Include="images\rug.jpg" />
+    <Image Include="images\rugBW.jpg" />
+    <Image Include="images\brick.jpg" />
+    <Image Include="images\brickBW.jpg" />
+    <Image Include="images\binderO.jpg" />
+    <Image Include="images\binderOBW.jpg" />
+    <Image Include="images\keyboard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaderfiles\lampVertexShader.vs" />
+    <None Include="shaderfiles\lampFragmentShader.fs" />
+    <None Include="shaderfiles\2.2.basic_lighting.fs" />
+    <None Include="shaderfiles\2.2.basic_lighting.vs" />
+    <None Include="shaderfiles\2.2.light_cube.fs" />
+    <None Include="shaderfiles\2.2.light_cube.vs" />
+    <None Include="shaderfiles\3.1.materials.vs" />
+    <None Include="shaderfiles\3.1.materials.fs" />
+    <None Include="shaderfiles\6.light_cube.vs" />
+    <None Include="shaderfiles\6.light_cube.fs" />
+  </ItemGroup>
+</Project>
